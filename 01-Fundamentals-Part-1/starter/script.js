@@ -36,11 +36,29 @@
 
 // console.log(typeof null);
 
-let age = 30;
-age = 31;
+//
 
-const birthYear = 2001;
-//birthYear=2000;
+const now = 2024;
+const ageYoon = now - 2001;
 
-var job = "programmer";
-job = "teacher";
+console.log(ageYoon);
+console.log(ageYoon * 2, ageYoon / 10, 2 ** 3);
+
+const firstName = "Ho Yoon";
+const lastName = "Choi";
+console.log(firstName + " " + lastName);
+
+//Assignment Operator
+let x = 10 + 5;
+x += 10;
+x *= 4;
+x++;
+x--;
+console.log(x);
+
+//Comparison Operator
+console.log(x > 30); //< > <= >=
+console.log(ageYoon >= 18);
+
+const isFullAge = ageYoon >= 20; //boolean
+console.log(now - 2001 > now - 2018);
