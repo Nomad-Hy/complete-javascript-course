@@ -62,3 +62,12 @@ console.log(ageYoon >= 18);
 
 const isFullAge = ageYoon >= 20; //boolean
 console.log(now - 2001 > now - 2018);
+
+console.log(25 - 10 - 5); //left to right
+
+let x, y;
+x = y = 25 - 10 - 5; //x=y=10 Assignment: right to left
+console.log(x, y);
+
+const averageAge = (ageYoon + x) / 2; //괄호는 가장 우선순위가 높다.
+console.log(averageAge);
