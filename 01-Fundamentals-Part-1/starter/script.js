@@ -49,7 +49,7 @@ const lastName = "Choi";
 console.log(firstName + " " + lastName);
 
 //Assignment Operator
-let x = 10 + 5;
+// let x = 10 + 5;
 x += 10;
 x *= 4;
 x++;
