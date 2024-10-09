@@ -38,36 +38,69 @@
 
 //
 
-const now = 2024;
-const ageYoon = now - 2001;
+//
 
-console.log(ageYoon);
-console.log(ageYoon * 2, ageYoon / 10, 2 ** 3);
+//
 
-const firstName = "Ho Yoon";
-const lastName = "Choi";
-console.log(firstName + " " + lastName);
+//
 
-//Assignment Operator
-// let x = 10 + 5;
-x += 10;
-x *= 4;
-x++;
-x--;
-console.log(x);
+// const inputYear = "1991";
+// console.log(Number(inputYear));
+// console.log(Number(inputYear) + 18);
 
-//Comparison Operator
-console.log(x > 30); //< > <= >=
-console.log(ageYoon >= 18);
+// console.log(Number("Jonas"));
 
-const isFullAge = ageYoon >= 20; //boolean
-console.log(now - 2001 > now - 2018);
+// console.log(String(23), 23);
 
-console.log(25 - 10 - 5); //left to right
+// //type coercion
+// console.log("I am " + 23 + " years old");
+// console.log("23" - "10" + 3);
 
-let x, y;
-x = y = 25 - 10 - 5; //x=y=10 Assignment: right to left
-console.log(x, y);
+// let n = "1" + 1;
+// n = n - 1;
+// console.log(n);
+//
 
-const averageAge = (ageYoon + x) / 2; //괄호는 가장 우선순위가 높다.
-console.log(averageAge);
+// const day = "monday";
+// switch (day) {
+//   case "monday": //day===monday
+//     console.log("Plan course structure");
+//     console.log("Go to coding meetup");
+//     break;
+//   case "tuesday":
+//     console.log("Prepare theory videos");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("Write code examples");
+//     break;
+//   case "friday":
+//     console.log("Record videos");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("Enjoy the weekend :D");
+//     break;
+//   default:
+//     console.log("Not a valid day!");
+// }
+
+// if (day === "monday") {
+//   console.log("Plan course structure");
+//   console.log("Go to coding meetup");
+// } else if (day === "tuesday") {
+//   console.log("Prepare theory videos");
+// } else if (day === "wednesday" || day === "thursday") {
+//   console.log("Write code examples");
+// } else if (day === "friday") {
+//   console.log("Record videos");
+// } else if (day === "saturday" || day === "sunday") {
+//   console.log("Enjoy the weekend :D");
+// } else {
+//   console.log("Not a valid day!");
+// }
+
+// const age = 19;
+// age >= 19
+//   ? console.log("I like to drink wine")
+//   : console.log("I like to drink water");
